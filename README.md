@@ -7,3 +7,5 @@ Inactive/non-used phone is detected according to 2 criteria:
 2) Phone is detected in lower half of the frame.
 
 Inactive phone implementation can be extended/implemented using ROIs (Region Of Interest) or other logic based on the scenarios present in the input videos.
+
+Model is converted from .pt to .engine (Tensorrt) format. 

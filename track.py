@@ -14,7 +14,7 @@ track_history = {}
 # thresholds
 MOTION_THRESH = 15       # pixels displacement threshold
 STATIC_FRAMES = 30       # how many frames to check for "static"
-CONF_THRESHOLD = 0.4     # confidence threshold for phone detection
+CONF_THRESHOLD = 0.5     # confidence threshold for phone detection
 
 def is_static(track_id, bbox, frame_height):
     """
